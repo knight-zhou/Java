@@ -11,7 +11,8 @@ WebRoot下还有什么css 这是定义样式的
 大致介绍就到这里。此jsp动态网站已经上传到GitHUB.
 
 部署思路：
-对于mysql：create database mytest;
+对于mysql：
+create database mytest;
 source mytest.sql
 
 然后将WebRoot下的内容拷贝到tomcat或者resin的根目录下即可。
